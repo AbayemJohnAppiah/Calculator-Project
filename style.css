@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ajUxMzlxNnpqaWJzcmMycWdnMGxjZnVrNzFsYTA4NHczYzJ4NW1sYyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/WoD6JZnwap6s8/giphy.gif');
+  background-color: black;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: black;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 325px;
+}
+
+.screen {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  font-size: 48px;
+  height: 80px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding: 0 20px 0 10px;
+}
+
+button {
+  height: 60px;
+  border-radius: 20px;
+  border: 1px solid #c4c4c4;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 32px;
+  color: #f8f8f8;
+}
+
+button:hover {
+  background-color: rgba(177, 200, 200, 0.5);
+}
+
+button:active {
+  background-color: rgba(118, 130, 149, 0.5);
+}
+
+.all-clear:hover {
+  background-color: rgba(145, 38, 42, 0.667);
+}
+
+.all-clear:active {
+  background-color: rgba(137, 48, 51, 0.5);
+}
+
+.equal-sign {
+  height: 100%;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 4;
+}
+
+.equal-sign:hover {
+  background-color: rgba(128, 143, 167, 0.5);
+}
+
+.equal-sign:active {
+  background-color: rgba(118, 130, 149, 0.5);
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
