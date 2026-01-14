@@ -6,8 +6,7 @@
 }
 
 body {
-  background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ajUxMzlxNnpqaWJzcmMycWdnMGxjZnVrNzFsYTA4NHczYzJ4NW1sYyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/WoD6JZnwap6s8/giphy.gif');
-  background-color: black;
+  background: linear-gradient(to right, #1ebde4, #7bdcf1);
   background-size: 100%;
   background-repeat: no-repeat;
 }
