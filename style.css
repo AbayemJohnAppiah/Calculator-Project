@@ -7,9 +7,6 @@
 
 body {
   background: linear-gradient(to right, #1ebde4, #7bdcf1);
-  background-color: blue;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .container {
