@@ -1,6 +1,3 @@
-document.body.style.background =
-  'linear-gradient(to right, #10cfff, #7bdcf1)';
-
 const calculator = {
   displayValue: '0',
   firstOperand: null,
